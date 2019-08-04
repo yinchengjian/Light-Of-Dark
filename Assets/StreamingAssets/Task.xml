@@ -1,0 +1,42 @@
+﻿<Root>
+  <Task1>
+    <taskName>消灭怪物</taskName>
+    <caption>消灭小狼*3</caption>
+    
+    <conditionID>Enemy1</conditionID>
+    <conditionTargetAmount>3</conditionTargetAmount>
+    
+    <rewardID>2019</rewardID>
+    <rewardName>木剑</rewardName>
+    <rewardAmount>1</rewardAmount>
+    <rewardID>2016</rewardID>
+    <rewardName>火柴棍</rewardName>
+    <rewardAmount>1</rewardAmount>
+  </Task1>
+
+  <Task2>
+    <taskName>消灭怪物(2)</taskName>
+    <caption>消灭小狼*5,消灭中狼*3</caption>
+
+    <conditionID>Enemy1</conditionID>
+    <conditionTargetAmount>5</conditionTargetAmount>
+    <conditionID>Enemy2</conditionID>
+    <conditionTargetAmount>3</conditionTargetAmount>
+
+    <rewardID>2017</rewardID>
+    <rewardName>金属棍</rewardName>
+    <rewardAmount>1</rewardAmount>
+    <rewardID>2020</rewardID>
+    <rewardName>双剑</rewardName>
+    <rewardAmount>1</rewardAmount>
+  </Task2>
+  <Task3>
+    <taskName>救出小女孩</taskName>
+    <caption>到森林深处救出小女孩</caption>
+   
+    <conditionID>Enemy3</conditionID>
+    <conditionTargetAmount>1</conditionTargetAmount>
+    
+  </Task3>
+  
+</Root>
